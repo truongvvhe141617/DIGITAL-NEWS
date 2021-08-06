@@ -1,0 +1,186 @@
+body{
+    font-family:sans-serif;
+    background-color: #E7E7E7;
+}
+.container {
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat-y;
+    width: 886px;
+    height: auto;
+    margin: 0 auto;
+}
+.right
+{
+    width: 230px;
+    height: auto;
+    padding: 10px;
+}
+
+.newst
+{
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+}
+.titleNews
+{
+    color: #42554e;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.searchBox
+{
+    border: dashed 1px;
+}
+.searchButton
+{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #999999;
+}
+.lastArticles
+{
+    padding-bottom: 20px;
+}
+.lastArticles a
+{
+    color: #42554e;
+}
+
+
+.content {
+    width: 760px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    
+}
+
+.main {
+    width: 485px;
+ 
+    padding: 20px;
+    border-right: dotted 2px;
+    border-color:  #e0e0e0;
+}
+
+.main a {
+    text-decoration: none;
+    color:#42554e;
+    font-weight: bold;
+}
+.title{
+    font-size:  18px;
+    color: #42554e;
+    font-weight: bold;
+    padding-bottom: 15px;
+    
+}
+.signature {
+    float: right;
+    color: #42554e;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.image img{
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.text {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.icon1 {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2 {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.image_search img {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.text_search{
+    font-size: 13px;
+}
+.paging {
+    margin-top: 40px;
+   text-align: center;
+}
+.paging a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding:2px;
+    border: 1px solid;
+}
+.active {
+    color:goldenrod !important;
+    pointer-events: none;
+}
+ul {
+    display: block;
+    list-style: none;
+    padding-left: 10px;
+}
+.search-new{
+    width: auto;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 600px){
+    .main{
+        width: 100%;
+        display: block;
+       
+    }
+    .content {
+        display: block;
+    }
+    .left {
+        width: 100%;
+    }
+    
+    .left .text {
+      margin-right: 15px;
+      font-size: 20px;
+    }
+    .left .signature {
+        float: right;
+        margin-right: 75px;
+    }
+    .left .by {
+        font-size: 15px;
+    }
+    .left {
+        width: 100%; 
+    }
+    .right .contentNews {
+        font-size: 20px;
+        padding-right: 15px;
+        padding-right: 15px;
+    }
+    .right input{
+        width: 100px;
+    }
+    .right .newst {
+        font-size: 20px;
+    }
+    .right {
+       width: 100%;
+    }
+
+}
